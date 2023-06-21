@@ -7,7 +7,6 @@ def random_word():
     words = file.readlines()
     word = random.choice(words).upper()
     word = word.strip("\n")
-    # print(word)
     return word
 
 
